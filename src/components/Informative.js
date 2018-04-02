@@ -47,7 +47,7 @@ const date =
   new Date().getDate() +
   2 +
   ' ' +
-  new Date().toLocaleString('es-pe', { month: 'long' });
+  new Date().toLocaleString('en-pe', { month: 'long' });
 
 const showTime = () => {
   let timeNow = new Date();

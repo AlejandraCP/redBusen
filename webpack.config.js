@@ -1,15 +1,15 @@
-const path = require("path");
-const webpack = require("webpack");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const DIST_DIR = path.resolve(__dirname, "./public");
-const SRC_DIR = path.resolve(__dirname, "./src");
+const DIST_DIR = path.resolve(__dirname, './public');
+const SRC_DIR = path.resolve(__dirname, './src');
 
 module.exports = {
   entry: [`${SRC_DIR}/index.js`],
   output: {
     path: `${DIST_DIR}`,
-    filename: "js/bundle.js"
+    filename: 'js/bundle.js'
   },
   module: {
     rules: [
@@ -18,10 +18,10 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           {
-            loader: "babel-loader",
+            loader: 'babel-loader',
             options: {
-              presets: ["react", "env", "stage-2"],
-              plugins: ["transform-decorators-legacy"]
+              presets: ['react', 'env', 'stage-2'],
+              plugins: ['transform-decorators-legacy']
             }
           }
         ]
@@ -30,21 +30,21 @@ module.exports = {
         test: /\.html$/,
         use: [
           {
-            loader: "html-loader"
+            loader: 'html-loader'
           }
         ]
       },
       {
         test: /\.css$/,
-        use: ["style-loader", "css-loader"]
+        use: ['style-loader', 'css-loader']
       },
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: "eslint-loader",
+        loader: 'eslint-loader',
         options: {
           emitWarning: true,
-          configFile: "./.eslintrc.js"
+          configFile: './.eslintrc.js'
         }
       }
     ]
@@ -52,18 +52,18 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       inject: false,
-      template: "./public/index.html",
-      filename: "./index.html"
+      template: './public/index.html',
+      filename: './index.html'
     }),
     new webpack.ProvidePlugin({
-      $: "jquery",
-      jQuery: "jquery"
+      $: 'jquery',
+      jQuery: 'jquery'
     })
   ],
-  devtool: "source-map",
+  devtool: 'source-map',
   devServer: {
-    contentBase: path.resolve(__dirname, "public/"),
-    host: "localhost",
+    contentBase: path.resolve(__dirname, 'public/'),
+    host: 'localhost',
     port: 3000,
     historyApiFallback: true
   }
