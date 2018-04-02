@@ -1,0 +1,69 @@
+{
+  "dataCash": [
+    {
+      "bank": "bcp",
+      "image": "./assets/images/bcp.png",
+      "id": 1,
+      "typePlace": "Agentes y Bodegas Agencias",
+      "text": "(*) Agentes BCP: Brinda el código de empresa 02186",
+      "text2": "(*) Agencias BCP: Costo adicional: S/.1.00."
+    },
+    {
+      "bank": "bbva",
+      "image": "./assets/images/bbva.jpg",
+      "id": 2,
+      "typePlace": "Agentes y Bodegas Agencias",
+      "text": "",
+      "text2": ""
+    },
+    {
+      "bank": "interbank",
+      "image": "./assets/images/interbank.jpg",
+      "id": 3,
+      "typePlace": "Agentes y Bodegas Agencias",
+      "text": "(*) Agentes Interbank: Brinda el siguiente código 2735001",
+      "text2": "(*) Agencias Market de Interbank: Costo adicional: S/.2.00."
+    },
+    {
+      "bank": "banbif",
+      "image": "./assets/images/Banbif.png",
+      "id": 4,
+      "typePlace": "Agencias",
+      "text": "",
+      "text2": ""
+    },
+    {
+      "bank": "fullcarga",
+      "image": "./assets/images/fullcarga.png",
+      "id": 5,
+      "typePlace": "Agentes y Bodegas",
+      "text":
+        "(*) Encuentra a FullCarga en Bodegas, Farmacias, Cabinas de Internet y Locutorios",
+      "text2": ""
+    },
+    {
+      "bank": "scotiabank",
+      "image": "./assets/images/scotiabanck.png",
+      "id": 6,
+      "typePlace": "Agentes y Bodegas Agencias",
+      "text": "",
+      "text2": ""
+    },
+    {
+      "bank": "western union",
+      "image": "./assets/images/western_union.jpg",
+      "id": 7,
+      "typePlace": "Agentes y bodegas",
+      "text": "",
+      "text2": ""
+    },
+    {
+      "bank": "kasnet",
+      "image": "./assets/images/kasnet.jpg",
+      "id": 8,
+      "typePlace": "Agentes y Bodegas",
+      "text": "",
+      "text2": ""
+    }
+  ]
+}
