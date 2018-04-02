@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div>
       <p className='ed-item print'>
-        Instrucciones vía{' '}
+        Instructions{' '}
         <img
           src='./assets/icons/printer.svg'
           alt=''
@@ -15,7 +15,7 @@ const Footer = () => {
       </p>
       <ul className='ed-container cross-center contact'>
         <li className='ed-item l-30'>
-          Instrucciones vía{' '}
+          Instructions{' '}
           <img
             src='./assets/icons/printer.svg'
             alt=''
@@ -23,14 +23,14 @@ const Footer = () => {
           />{' '}
         </li>
         <li className='ed-item s-60 l-40'>
-          Ayuda:{' '}
+          Assistance:{' '}
           <a href='mailto:contacto@redbus.pe'>
             <span>contacto@redbus.pe</span>
           </a>{' '}
         </li>
         <li className='ed-item s-40 l-30'>
           {' '}
-          Pago Vía <img src='./assets/icons/pagoEfectivo.png' alt='' />{' '}
+          Payment by <img src='./assets/icons/pagoEfectivo.png' alt='' />{' '}
         </li>
       </ul>
     </div>

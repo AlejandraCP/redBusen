@@ -5,8 +5,8 @@
       "image": "./assets/images/bcp.png",
       "id": 1,
       "typePlace": "Agentes y Bodegas Agencias",
-      "text": "(*) Agentes BCP: Brinda el código de empresa 02186",
-      "text2": "(*) Agencias BCP: Costo adicional: S/.1.00."
+      "text": "(*) BCP Agents: Prove the code of the company: 02186",
+      "text2": "(*) BCP Agents: Additional cost S/.1.00"
     },
     {
       "bank": "bbva",
@@ -21,8 +21,8 @@
       "image": "./assets/images/interbank.jpg",
       "id": 3,
       "typePlace": "Agentes y Bodegas Agencias",
-      "text": "(*) Agentes Interbank: Brinda el siguiente código 2735001",
-      "text2": "(*) Agencias Market de Interbank: Costo adicional: S/.2.00."
+      "text": "(*) Interbank Agents: provide the following code: 2735001",
+      "text2": "(*) Interbank Agents: additional cost S/.2.00"
     },
     {
       "bank": "banbif",
@@ -38,7 +38,7 @@
       "id": 5,
       "typePlace": "Agentes y Bodegas",
       "text":
-        "(*) Encuentra a FullCarga en Bodegas, Farmacias, Cabinas de Internet y Locutorios",
+        "(*) You can find FullCarga in grocery tores, farmacies, internet cafes and parlors",
       "text2": ""
     },
     {

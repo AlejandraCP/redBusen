@@ -12,7 +12,7 @@ class InternetBanking extends Component {
   constructor(...props) {
     super(...props);
     this.state = {
-      text: ['Selecciona un banco']
+      text: ['Select your bank']
     }
 
     this.show = this.show.bind(this)
@@ -40,22 +40,22 @@ class InternetBanking extends Component {
 
     return (
       <div className='ed-container selec-pay'>
-        <p>Selecciona dónde quieres pagar</p>
+        <p>Select your bank</p>
         <a className="prev"> <i className="fas fa-angle-left"></i></a>
         <Slider className='ed-container ed-item cross-center slider'>
           <SliderPay imgArray={imagesArray.dataBankInternet.dataInternet} show={this.show} />
         </Slider>
         <a className="next"> <i className="fas fa-angle-right"></i></a>
         <div className='box-description'>
-          <p>Puedes pagar desde la Web o App móvil del Banco</p>
-          <p>Instrucciones de Pago</p>
+          <p>You can pay through the web or the mobile app of each Bank</p>
+          <p>Payment Instructions</p>
           <ol>
             <li><span className='number'>1</span>{this.state.text}</li>
-            <li><span className='number'>2</span>Ingresa tu código CIP: <span>{info.dataInfo.cod}</span> y sigue los pasos</li>
+            <li><span className='number'>2</span>Enter your CIP code: <span>{info.dataInfo.cod}</span> and follow the instructions</li>
           </ol>
         </div>
         <div className='ed-container bpi'>
-          <a href='#'>Ir a banca por internet</a>
+          <a href='#'>Go to online Banking</a>
         </div>
       </div>
     )

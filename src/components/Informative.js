@@ -64,7 +64,7 @@ const Informative = () => {
     <ul className='ed-container cross-center content-info'>
       <li className='ed-item s-35 cross-center'>
         <p>
-          <span>Código de pago</span>
+          <span>Payment code</span>
           <br />{' '}
           <span style={{ fontSize: reSizeCod() + 'px' }}>
             {info.dataInfo.cod}
@@ -84,7 +84,7 @@ const Informative = () => {
             {' '}
             <img src='./assets/icons/alarm.svg' alt='' className='alarm' />{' '}
           </span>{' '}
-          Tu orden expirará <br />{' '}
+          Your order will expire: <br />{' '}
           <span>
             {date} - {showTime()}
           </span>

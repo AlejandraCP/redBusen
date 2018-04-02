@@ -25,7 +25,7 @@ class App extends Component {
                 className='linkNav'
               >
                 {' '}
-                Banca por internet{' '}
+                Online Banking{' '}
               </NavLink>
             </li>
             <li className='ed-item s-50 m-70'>
@@ -34,7 +34,7 @@ class App extends Component {
                 activeClassName='active'
                 className='linkNav'
               >
-                Pagar en efectivo
+                Pay by Cash
               </NavLink>
             </li>
           </ul>

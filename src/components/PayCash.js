@@ -49,15 +49,14 @@ class PayCash extends Component {
         </Slider>
         <a className="next"> <i className="fas fa-angle-right"></i></a>
         <div className='box-description-cash'>
-          <p>Instrucciones de Pago</p>
+          <p>Payment Instructions</p>
           <ol>
             <li>
-             Indica que vas a realizar un pago a
-            la empresa PAGOEFECTIVO
+             State that you are going to make a payment with the company PAGOEFECTIVO
             </li>
             <li>
-             Indica el código CIP:{' '}
-              <span>{info.dataInfo.cod}</span> y el importe a pagar en Soles
+             Provide the CIP code:{' '}
+              <span>{info.dataInfo.cod}</span> and the ammount to be paid in soles.
             </li>
           </ol>
           <p>{this.state.text}</p>
@@ -69,7 +68,7 @@ class PayCash extends Component {
             target='_blank'
             rel='noopener noreferrer'
           >
-          Encuentra tu punto de pago
+          Find your payment point
           </a>
         </div>
       </div>

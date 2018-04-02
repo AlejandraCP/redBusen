@@ -6,7 +6,7 @@
       "id": 1,
       "typePlace": "",
       "text":
-        "Selecciona la opción Pago de servicios > EMPRESAS > PAGOEFECTIVO > PAGOEFECTIVOSOLES."
+        "Select the option Payment of Services > Of enterprises and institutions > search by name > PAGOEFECTIVO > PAGOEFECTIVOSOLES"
     },
     {
       "bank": "bbva",
@@ -14,7 +14,7 @@
       "id": 2,
       "typePlace": "",
       "text":
-        "Selecciona la opción Pago de servicios > De instituciones y Empresas > Busca por nombre > PAGOEFECTIVO > PAGOEFECTIVOSOLES."
+        "Select the option Payment of Services > Of enterprises and institutions > search by name > PAGOEFECTIVO > PAGOEFECTIVOSOLES"
     },
     { 
       "bank": "interbank",
@@ -22,7 +22,7 @@
       "id": 3,
       "typePlace": "",
       "text":
-        "Selecciona la opción Pago a instituciones o Empresa > Empresa: PAGOEFECTIVO > Servicio: PAGOEFECTIVO"
+        "Select the option Payment to Intitutions or Enterprises > Enterprise: PagoEfectivo > Service: PAGOEFECTIVO"
     },
     {
       "bank": "scotiabank",
@@ -30,7 +30,7 @@
       "id": 4,
       "typePlace": "",
       "text":
-        "Selecciona la opción Pagos > Otras Instituciones > Otros > Busca por Empresa/Servicio PAGOEFECTIVO > Selecciona:PAGOEFECTIVO SOLES."
+        "Select the option Payment to Intitutions or Enterprises > Enterprise: PagoEfectivo > Service: PAGOEFECTIVO."
     },
     {
       "bank": "banbif",
@@ -38,7 +38,7 @@
       "id": 5,
       "typePlace": "",
       "text":
-        "Selecciona la opción Pago de servicios > Busca por Empresa y escribe PAGOEFECTIVO > Selecciona la empresa PAGOEFECTIVO."
+        "Select the option Payment of Services > Search by Companies and type PAGOEFECTIVO > Select the Company PAGOEFECTIVO"
     }
   ]
 }
