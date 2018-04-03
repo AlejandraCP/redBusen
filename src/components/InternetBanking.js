@@ -41,11 +41,11 @@ class InternetBanking extends Component {
     return (
       <div className='ed-container selec-pay'>
         <p>Select your bank</p>
-        <a className="prev"> <i className="fas fa-angle-left"></i></a>
+        <a className=""></a>
         <Slider className='ed-container ed-item cross-center slider'>
           <SliderPay imgArray={imagesArray.dataBankInternet.dataInternet} show={this.show} />
         </Slider>
-        <a className="next"> <i className="fas fa-angle-right"></i></a>
+        <a className=""></a>
         <div className='box-description'>
           <p>You can pay through the web or the mobile app of each Bank</p>
           <p>Payment Instructions</p>

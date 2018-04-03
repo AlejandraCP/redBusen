@@ -43,11 +43,11 @@ class PayCash extends Component {
     return (
       <div className='ed-container selec-pay'>
         <p>Select your bank</p>
-        <a className="prev"> <i className="fas fa-angle-left"></i></a>
+        <a className=""></a>
         <Slider className='ed-container cross-center slider'>
           <SliderPay imgArray={imagesArray.dataCash.dataCash} show={this.show} />
         </Slider>
-        <a className="next"> <i className="fas fa-angle-right"></i></a>
+        <a className=""></a>
         <div className='box-description-cash'>
           <p>Payment Instructions</p>
           <ol>

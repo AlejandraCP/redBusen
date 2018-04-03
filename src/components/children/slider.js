@@ -10,18 +10,23 @@ const settings = {
   infinite: true,
   centerPadding: '60px',
   speed: 500,
-  slidesToShow: 4,
-  slidesToScroll: 4
+  slidesToShow: 5,
+  slidesToScroll: 5
   // prevArrow: $('.prev'),
   // nextArrow: $('.next')
 };
 
 const SliderPay = ({ imgArray, show }) => (
   <div>
-    <Slider {...settings} className='ed-container cross-center'>
+    <Slider {...settings} className="ed-container cross-center">
       {imgArray.map((val, i) => (
         <div key={i}>
-          <img src={val.image} data-name={val.bank} onClick={show} />
+          <img
+            src={val.image}
+            data-name={val.bank}
+            onClick={show}
+            className="style-img"
+          />
         </div>
       ))}
     </Slider>

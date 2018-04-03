@@ -120,9 +120,9 @@
         height: 2rem;
     }
     /*slider plugin*/
-    button.slick-arrow.slick-prev {
+    /* button.slick-arrow.slick-prev {
         background-color: black;
-        /* display: none !important; */
+        display: none !important;
         background-size: cover;
     }
     button.slick-arrow.slick-next {
@@ -132,7 +132,31 @@
         border-radius: 50px;
         width: 30px;
         padding-left: 2px;
-        /* display: none !important; */
+        display: none !important;
+    } */
+    .slick-prev:before,
+    .slick-next:before {
+        font-size: 25px !important;
+        line-height: 1;
+        color: #E0AA00 !important;
+    }
+    .slick-prev:before {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS55LwUNg127reKUDM4ktx_FmoVpF-wjKyuRFUVJOAdlj6o-5ILkg) !important;
+    }
+    .slick-next:before {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS55LwUNg127reKUDM4ktx_FmoVpF-wjKyuRFUVJOAdlj6o-5ILkg) !important;
+    }
+    .slick-prev {
+        left: -5px !important;
+    }
+    .slick-slide {
+        margin-top: 30px;
+    }
+    .slick-list {
+        height: 5rem;
+    }
+    .slick-next {
+        right: 1rem !important;
     }
     .slider {
         margin: 2rem;
@@ -149,6 +173,9 @@
         font-size: 2rem;
         color: var(--color-yellow);
         right: 0;
+    }
+    .style-img {
+        margin-left: 10px;
     }
     /*Diseño del Componente InternetBanking*/
     .selec-pay {
@@ -334,6 +361,33 @@
     .slider {
         margin: 2rem;
     }
+    .slick-prev:before,
+    .slick-next:before {
+        font-size: 2.5rem !important;
+        line-height: 1;
+        color: #E0AA00 !important;
+    }
+    .slick-prev:before {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS55LwUNg127reKUDM4ktx_FmoVpF-wjKyuRFUVJOAdlj6o-5ILkg) !important;
+    }
+    .slick-next:before {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS55LwUNg127reKUDM4ktx_FmoVpF-wjKyuRFUVJOAdlj6o-5ILkg) !important;
+    }
+    .slick-prev {
+        left: -5px !important;
+    }
+    .slick-next {
+        right: 4rem !important;
+    }
+    .slick-list {
+        height: 6rem;
+    }
+    .slick-slide {
+        margin-top: 54px;
+    }
+    .style-img {
+        margin-left: 80px;
+    }
     .prev {
         position: absolute;
         top: 42px;
@@ -484,7 +538,7 @@
         display: block;
         font-size: 1.3rem;
     }
-    .contact li:nth-child(1) img{
+    .contact li:nth-child(1) img {
         cursor: pointer;
     }
     .contact li:nth-child(2) {
@@ -560,32 +614,34 @@
     .content-info li {
         list-style: none;
         margin-top: 1rem;
-        height: 5rem;
+        height: 9rem;
     }
     .content-info li:nth-child(1) {
         background: var(--color-time);
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
-        padding-top: 0rem;
-        font-size: 1.3rem;
+        padding-top: 1.5rem;
+        font-size: 1.5rem;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
     .content-info li:nth-child(2) {
         background: var(--color-grey);
-        font-size: 1.3rem;
-        height: 5rem;
+        font-size: 1.5rem;
+        height: 9rem;
         text-align: center;
         display: inline-block;
+        padding-top: 1.5rem;
     }
     .content-info li:nth-child(3) {
         background: var(--color-time);
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         text-align: center;
         display: inline-block;
+        padding-top: 1.5rem;
     }
     .alarm {
         float: left;
@@ -643,7 +699,20 @@
         margin-bottom: 0.5rem;
     }
     .bpi {
-        display: none;
+        display: block;
+    }
+    .bpi {
+        background: var(--color-time);
+        color: #000;
+        ;
+        display: inline;
+        font-weight: 800;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 15px;
+    }
+    .bpi a {
+        color: #000;
     }
     /*Diseño del Componente PayCash*/
     .box-description-cash p:nth-child(1) {
@@ -657,14 +726,14 @@
     /*componente Footer*/
     .contact {
         padding: 0;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .contact li {
         list-style: none;
         text-align: center;
     }
     .contact li img {
-      cursor: pointer;
+        cursor: pointer;
     }
     .print {
         display: none;
@@ -679,8 +748,4 @@
     .contact li:nth-child(3) img {
         height: 5vh;
     }
-}
-
-@page {
-    size: landscape;
 }
